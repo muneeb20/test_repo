@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import include, url, patterns
 from django.conf.urls.static import static
-from test.settings import STATIC_URL, STATIC_ROOT
+from test_assesment.settings import STATIC_URL, STATIC_ROOT
 from web.views import IndexView
 
 urlpatterns = patterns('',

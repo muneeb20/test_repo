@@ -37,7 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'test',
+    'test_assesment',
     'rest_framework',
     'api',
 )
@@ -53,7 +53,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = 'test.urls'
+ROOT_URLCONF = 'test_assesment.urls'
 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
@@ -83,7 +83,7 @@ TEMPLATES = [
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-WSGI_APPLICATION = 'test.wsgi.application'
+WSGI_APPLICATION = 'test_assesment.wsgi.application'
 
 
 # Database
@@ -113,4 +113,4 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
-from local_settings import *
+
